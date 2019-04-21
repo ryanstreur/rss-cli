@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 const program = require("commander");
-const getCreatorCounts = require("./item-list").getCreatorCounts;
-const pull = require("./feed").pull;
-const getConfig = require("./config").getConfig;
-const commands = require("./commands");
+const getCreatorCounts = require("./lib/item-list").getCreatorCounts;
+const pull = require("./lib/feed").pull;
+const getConfig = require("./lib/config").getConfig;
+const commands = require("./lib/commands");
 
 program.version("0.0.1");
 program.command("add-feed <feedUrl>").action(commands.addFeedCmd);
