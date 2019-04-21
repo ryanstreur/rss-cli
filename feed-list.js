@@ -5,21 +5,21 @@ module.exports = {
   addFeed: addFeed
 };
 
-function addFeed(feedUrl, feedListLocation) {
+function addFeed(feedUrl, feedMapLocation) {
   feed.pull(feedUrl).then(feedData => {
     const newFeed = feed.getMetadata(feedData);
-    fs.readFile(feedListLocation, "utf8", addNewFeedData(newFeed));
+    fs.readFile(feedMapLocation, "utf8", addNewFeedData(newFeed));
   });
 
   function addNewFeedData(newFeed) {
-    return function pushNewFeedToList(err, rawFeedList) {
+    return function pushNewFeedToList(err, rawFeedMap) {
       if (err) throw err;
-      const feedList = JSON.parse(rawFeedList);
-      const existingFeedData = feedList.find(f => (f.feedUrl = feedUrl));
-      if (existingFeedData) return;
+      const feedMap = JSON.parse(rawFeedMap);
+      
+      if (feedMap[feedUrl]) return;
       else {
-        feedList.push(newFeed);
-        fs.writeFile(feedListLocation, JSON.stringify(feedList), err => {
+        feedMap[feedUrl] = newFeed;
+        fs.writeFile(feedMapLocation, JSON.stringify(feedMap), err => {
           if (err) throw err;
           console.log("added feed:", newFeed);
         });
@@ -27,3 +27,4 @@ function addFeed(feedUrl, feedListLocation) {
     };
   }
 }
+

@@ -3,6 +3,7 @@ const parser = new Parser();
 
 module.exports = {
   pull: pull,
+  pullItems: pullItems,
   getMetadata: getMetadata
 };
 

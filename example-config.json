@@ -1,5 +1,5 @@
-[
-  {
+{
+  "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml": {
     "feedUrl": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
     "image": {
       "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
@@ -11,6 +11,25 @@
     "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
     "language": "en-us",
     "copyright": "Copyright 2019  The New York Times Company",
-    "lastBuildDate": "Sun, 21 Apr 2019 20:44:49 GMT "
+    "lastBuildDate": "Sun, 21 Apr 2019 21:58:34 GMT "
+  },
+  "https://thewirecutter.com/feed/rss/": {
+    "feedUrl": "https://thewirecutter.com/feed/",
+    "title": "Wirecutter: Reviews for the Real World",
+    "description": "A List of Great Technology",
+    "link": "https://thewirecutter.com",
+    "language": "en-US",
+    "lastBuildDate": "Sun, 21 Apr 2019 16:05:48 +0000"
+  },
+  "https://io9.gizmodo.com/rss": {
+    "title": "io9",
+    "description": "Science Fiction and Fantasy News.",
+    "link": "https://io9.gizmodo.com",
+    "language": "en"
+  },
+  "https://news.ycombinator.com/rss": {
+    "title": "Hacker News",
+    "description": "Links for the intellectually curious, ranked by readers.",
+    "link": "https://news.ycombinator.com/"
   }
-]
+}

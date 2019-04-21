@@ -11,11 +11,17 @@
     "rss"
   ],
   "author": "Ryan Streur",
-  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanstreur/rss-cli.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.20.0",
     "inquirer": "^6.3.1",
-    "rss-parser": "^3.7.0"
+    "lodash": "^4.17.11",
+    "rss-parser": "^3.7.0",
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {
     "mocha": "^6.1.4"

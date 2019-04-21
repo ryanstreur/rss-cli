@@ -5,12 +5,12 @@ const pull = require("./feed").pull;
 const getConfig = require("./config").getConfig;
 const commands = require("./commands");
 
-program
-  .version("0.0.1")
-  .option("--add-feed", "Add a new feed")
-  .option("-u --url [url]");
-
+program.version("0.0.1");
 program.command("add-feed <feedUrl>").action(commands.addFeedCmd);
+program
+  .command('pull-items [feedUrl]')
+  .option('-hl, --headlines')
+  .action(commands.pullItems);
 
 program.parse(process.argv);
 
