@@ -1,0 +1,16 @@
+[
+  {
+    "feedUrl": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "image": {
+      "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
+      "url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "title": "NYT > Home Page"
+    },
+    "title": "NYT > Home Page",
+    "description": "",
+    "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
+    "language": "en-us",
+    "copyright": "Copyright 2019  The New York Times Company",
+    "lastBuildDate": "Sun, 21 Apr 2019 20:44:49 GMT "
+  }
+]

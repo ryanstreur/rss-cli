@@ -1,0 +1,23 @@
+{
+  "name": "rss-cli",
+  "version": "0.0.0",
+  "description": "a command line interface for interacting with rss feeds",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rss"
+  ],
+  "author": "Ryan Streur",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "inquirer": "^6.3.1",
+    "rss-parser": "^3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
