@@ -8,11 +8,14 @@ const commands = require("./lib/commands");
 program.version("0.0.1");
 program.command("add-feed <feedUrl>").action(commands.addFeedCmd);
 program
-  .command('pull-items [feedUrl]')
-  .option('-hl, --headlines')
+  .command("pull-items [feedUrl]")
+  .option("-hl, --headlines")
   .action(commands.pullItems);
 
-program.command('read').action(commands.read);
+program
+  .command("read")
+  .option("-s, --saved")
+  .action(commands.read);
 
 program.parse(process.argv);
 

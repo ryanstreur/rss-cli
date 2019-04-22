@@ -1,42 +1,24 @@
 {
-    "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml": {
-        "feedUrl": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        "image": {
-            "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
-            "url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
-            "title": "NYT > Home Page"
-        },
-        "title": "NYT > Home Page",
-        "description": "",
-        "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
-        "language": "en-us",
-        "copyright": "Copyright 2019  The New York Times Company",
-        "lastBuildDate": "Sun, 21 Apr 2019 21:58:34 GMT "
+  "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml": {
+    "feedUrl": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "image": {
+      "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
+      "url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+      "title": "NYT > Home Page"
     },
-    "https://thewirecutter.com/feed/rss/": {
-        "feedUrl": "https://thewirecutter.com/feed/",
-        "title": "Wirecutter: Reviews for the Real World",
-        "description": "A List of Great Technology",
-        "link": "https://thewirecutter.com",
-        "language": "en-US",
-        "lastBuildDate": "Sun, 21 Apr 2019 16:05:48 +0000"
-    },
-    "https://io9.gizmodo.com/rss": {
-        "title": "io9",
-        "description": "Science Fiction and Fantasy News.",
-        "link": "https://io9.gizmodo.com",
-        "language": "en"
-    },
-    "https://news.ycombinator.com/rss": {
-        "title": "Hacker News",
-        "description": "Links for the intellectually curious, ranked by readers.",
-        "link": "https://news.ycombinator.com/"
-    },
-    "http://feeds.washingtonpost.com/rss/opinions": {
-        "feedUrl": "http://www.washingtonpost.com/pb/opinions/?resType=rss",
-        "title": "Washington Post Opinions",
-        "description": "The Washington Post Opinions section features opinion articles, newspaper editorials and letters to the editor on the issues of the day. Offerings include the Post Partisan blog by Washington Post opinion writers, as well as political cartoons and political cartoon animations by editorial cartoonists Tom Toles and Ann Telnaes.",
-        "link": "http://www.washingtonpost.com/pb/opinions/",
-        "language": "en-US"
-    }
+    "title": "NYT > Home Page",
+    "description": "",
+    "link": "http://www.nytimes.com/pages/index.html?partner=rss&emc=rss",
+    "language": "en-us",
+    "copyright": "Copyright 2019  The New York Times Company",
+    "lastBuildDate": "Sun, 21 Apr 2019 21:58:34 GMT "
+  },
+  "https://thewirecutter.com/feed/rss/": {
+    "feedUrl": "https://thewirecutter.com/feed/",
+    "title": "Wirecutter: Reviews for the Real World",
+    "description": "A List of Great Technology",
+    "link": "https://thewirecutter.com",
+    "language": "en-US",
+    "lastBuildDate": "Sun, 21 Apr 2019 16:05:48 +0000"
+  }
 }
