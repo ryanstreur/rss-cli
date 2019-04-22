@@ -12,6 +12,8 @@ program
   .option('-hl, --headlines')
   .action(commands.pullItems);
 
+program.command('read').action(commands.read);
+
 program.parse(process.argv);
 
 // getConfig(c => {
