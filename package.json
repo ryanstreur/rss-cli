@@ -4,7 +4,7 @@
   "description": "a command line interface for interacting with rss feeds",
   "preferGlobal": true,
   "bin": {
-    "rss": "./rss.js"
+    "rss": "./lib/commands/rss.js"
   },
   "scripts": {
     "test": "test"
