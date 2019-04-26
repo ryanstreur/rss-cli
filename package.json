@@ -1,6 +1,6 @@
 {
   "name": "rss-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a command line interface for interacting with rss feeds",
   "preferGlobal": true,
   "bin": {
