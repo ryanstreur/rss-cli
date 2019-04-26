@@ -1,4 +1,7 @@
 {
   "editor.formatOnSave": true,
-  "prettier.stylelintIntegration": true
+  "prettier.stylelintIntegration": true,
+  "cSpell.words": [
+    "xmlhttprequest"
+  ]
 }

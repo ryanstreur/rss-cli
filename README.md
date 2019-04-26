@@ -2,6 +2,28 @@
 
 I'm working on a simpler way to read the news.
 
-## Issues
+```
+Usage: rss [options] [command]
 
-- [ ] When the user doesn't have a saved.json file yet, saving an item crashes the reader. Works fine after that.
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+
+Commands:
+  feed           manage rss feeds
+  read           read through items from feeds
+  ticker         stay up to date
+  help [cmd]     display help for [cmd]
+
+----------------------------------------
+
+Usage: rss-feed [options] [command]
+
+Options:
+  -h, --help     output usage information
+
+Commands:
+  add <feedUrl>  adds a feed to the list of feeds
+  ls             list feeds
+  help [cmd]     display help for [cmd]
+```
